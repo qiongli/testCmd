@@ -11,6 +11,8 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
+    <module>jobs/process/Drools/tbrms_loan_standalone_redhatdecision_0.1</module>
+    <module>jobs/process/tdatamasking_1_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
