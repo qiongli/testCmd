@@ -26,13 +26,5 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_A5LXcNnoEeC98O4J9V4fnA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "__TEMPLATE__",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
+  "relatedItems" : [ ]
 } ]
