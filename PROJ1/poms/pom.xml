@@ -13,6 +13,7 @@
     <module>code/routines</module>
     <module>jobs/process/Drools/tbrms_loan_standalone_redhatdecision_0.1</module>
     <module>jobs/process/tdatamasking_1_0.1</module>
+    <module>jobs/process/testmysql_0.1</module>
     <module>jobs/process/tmatchgroup_0.1</module>
     <module>jobs/process_mr/a_0.1</module>
   </modules>
