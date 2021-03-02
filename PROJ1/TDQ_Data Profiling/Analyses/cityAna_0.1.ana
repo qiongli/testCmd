@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_Wa5icHshEeuI38kuQGNOHg" name="cityAna" creationDate="2021-03-02T14:34:30.939+0800">
+  <taggedValue xmi:id="_Wa5icXshEeuI38kuQGNOHg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_Wa5icnshEeuI38kuQGNOHg" tag="Author" value="a@a.com"/>
+  <taggedValue xmi:id="_Wa5ic3shEeuI38kuQGNOHg" tag="Purpose"/>
+  <taggedValue xmi:id="_Wa5idHshEeuI38kuQGNOHg" tag="Description"/>
+  <taggedValue xmi:id="_Wa5idXshEeuI38kuQGNOHg" tag="Version" value="0.1"/>
+  <context xmi:id="_Wa5idnshEeuI38kuQGNOHg"/>
+  <results xmi:id="_Wa5id3shEeuI38kuQGNOHg">
+    <resultMetadata xmi:id="_Wa5ieHshEeuI38kuQGNOHg"/>
+  </results>
+  <parameters xmi:id="_Wa5ieXshEeuI38kuQGNOHg" analysisType="Multiple Column Analysis"/>
+</dataquality.analysis:Analysis>
