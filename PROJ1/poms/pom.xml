@@ -16,6 +16,7 @@
     <module>jobs/process/aa_0.1</module>
     <module>jobs/process/copy_of_tdatamasking_1_0.1</module>
     <module>jobs/process/tdatamasking_1_0.1</module>
+    <module>jobs/process/tdqreportrun_1614667184074_0.1</module>
     <module>jobs/process/testmysql_0.1</module>
     <module>jobs/process/tmatchgroup_0.1</module>
     <module>jobs/process_mr/a_0.1</module>
