@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_rMjzgHshEeuI38kuQGNOHg" name="cityAna" creationDate="2021-03-02T14:36:50.250+0800">
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_rMjzgHshEeuI38kuQGNOHg" name="cityAna" creationDate="2021-03-02T14:36:50.250+0800" defaultContext="ng">
   <clientDependency href="../Analyses/cityAna_0.1.ana#_rMkakHshEeuI38kuQGNOHg"/>
   <taggedValue xmi:id="_rMjzgXshEeuI38kuQGNOHg" tag="OutputFolder" value=""/>
   <taggedValue xmi:id="_rMjzgnshEeuI38kuQGNOHg" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
@@ -10,14 +10,30 @@
   <taggedValue xmi:id="_rMjzh3shEeuI38kuQGNOHg" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
   <taggedValue xmi:id="_rMjziHshEeuI38kuQGNOHg" tag="REP_DBINFO_SCHEMA" value=""/>
   <taggedValue xmi:id="_rMjziXshEeuI38kuQGNOHg" tag="REP_DBINFO_USER" value="sa"/>
-  <taggedValue xmi:id="_rMjzinshEeuI38kuQGNOHg" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:+yszE23w/PlmecIoY9G3YkcFWgwHxYidn3LvGQ=="/>
+  <taggedValue xmi:id="_rMjzinshEeuI38kuQGNOHg" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:oabFdXy0lZQ3hQ7AiLrF15VpREjhxNM2w1SCxA=="/>
   <taggedValue xmi:id="_rMjzi3shEeuI38kuQGNOHg" tag="REP_DBINFO_PARAMETER" value=""/>
-  <taggedValue xmi:id="_rMjzjHshEeuI38kuQGNOHg" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:F:\Build\release\Talend-Studio-20200219_1130-V7.3.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_rMjzjHshEeuI38kuQGNOHg" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/F:\Build\release\Talend-Studio-20200219_1130-V7.3.1\workspace\TDQ_reporting_db\talend_dq"/>
   <taggedValue xmi:id="_rMjzjXshEeuI38kuQGNOHg" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
   <taggedValue xmi:id="_rMjzjnshEeuI38kuQGNOHg" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
   <taggedValue xmi:id="_rMjzj3shEeuI38kuQGNOHg" tag="REP_PASSWORD_CONTEXT" value="false"/>
   <taggedValue xmi:id="_rMjzkHshEeuI38kuQGNOHg" tag="Author" value="a@a.com"/>
+  <taggedValue xmi:id="_CHbMwHsiEeuI38kuQGNOHg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_CHbMwXsiEeuI38kuQGNOHg" tag="Description" value=""/>
+  <taggedValue xmi:id="_CHbMwnsiEeuI38kuQGNOHg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_CHbz0HsiEeuI38kuQGNOHg" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_CHbz0XsiEeuI38kuQGNOHg" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_CHbz0nsiEeuI38kuQGNOHg" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_CHbz03siEeuI38kuQGNOHg" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_CHdB9nsiEeuI38kuQGNOHg" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
   <analysisMap xmi:id="_rMjzkXshEeuI38kuQGNOHg" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/cityAna_0.1.ana#_Wa5icHshEeuI38kuQGNOHg"/>
   </analysisMap>
+  <context xmi:id="_CHdB8HsiEeuI38kuQGNOHg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_CHdB8XsiEeuI38kuQGNOHg" comment="" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="aa"/>
+    <contextParameter xmi:id="_CHdB8nsiEeuI38kuQGNOHg" comment="" name="new2" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="b"/>
+  </context>
+  <context xmi:id="_CHdB83siEeuI38kuQGNOHg" confirmationNeeded="false" name="ng">
+    <contextParameter xmi:id="_CHdB9HsiEeuI38kuQGNOHg" comment="" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="aa"/>
+    <contextParameter xmi:id="_CHdB9XsiEeuI38kuQGNOHg" comment="" name="new2" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="b"/>
+  </context>
 </dataquality.reports:TdReport>
