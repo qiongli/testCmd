@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_Wa5icHshEeuI38kuQGNOHg" name="cityAna" creationDate="2021-03-02T14:34:30.939+0800">
-  <taggedValue xmi:id="_Wa5icXshEeuI38kuQGNOHg" tag="Status" value="development"/>
-  <taggedValue xmi:id="_Wa5icnshEeuI38kuQGNOHg" tag="Author" value="a@a.com"/>
-  <taggedValue xmi:id="_Wa5ic3shEeuI38kuQGNOHg" tag="Purpose"/>
-  <taggedValue xmi:id="_Wa5idHshEeuI38kuQGNOHg" tag="Description"/>
-  <taggedValue xmi:id="_Wa5idXshEeuI38kuQGNOHg" tag="Version" value="0.1"/>
-  <context xmi:id="_Wa5idnshEeuI38kuQGNOHg"/>
-  <results xmi:id="_Wa5id3shEeuI38kuQGNOHg">
-    <resultMetadata xmi:id="_Wa5ieHshEeuI38kuQGNOHg"/>
-  </results>
-  <parameters xmi:id="_Wa5ieXshEeuI38kuQGNOHg" analysisType="Multiple Column Analysis"/>
-</dataquality.analysis:Analysis>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_Wa5icHshEeuI38kuQGNOHg" name="cityAna" creationDate="2021-03-02T14:34:30.939+0800" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/mysql_0.1.item#_XwZ80HshEeuI38kuQGNOHg"/>
+    <taggedValue xmi:id="_Wa5icXshEeuI38kuQGNOHg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_Wa5icnshEeuI38kuQGNOHg" tag="Author" value="a@a.com"/>
+    <taggedValue xmi:id="_Wa5ic3shEeuI38kuQGNOHg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Wa5idHshEeuI38kuQGNOHg" tag="Description" value=""/>
+    <taggedValue xmi:id="_Wa5idXshEeuI38kuQGNOHg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_XwW5gXshEeuI38kuQGNOHg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_XwW5gnshEeuI38kuQGNOHg" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_XwXgkHshEeuI38kuQGNOHg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_Xwe1UHshEeuI38kuQGNOHg" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_Wa5idnshEeuI38kuQGNOHg">
+      <connection href="../../metadata/connections/mysql_0.1.item#_W8OhgFueEeuS9Z-HqbZWvg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/mysql_0.1.item#_8kHI9FueEeuS9Z-HqbZWvg"/>
+    </context>
+    <results xmi:id="_Wa5id3shEeuI38kuQGNOHg">
+      <resultMetadata xmi:id="_Wa5ieHshEeuI38kuQGNOHg"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_XwYHoHshEeuI38kuQGNOHg">
+        <parameters xmi:id="_XwYHoXshEeuI38kuQGNOHg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/mysql_0.1.item#_8kHI9FueEeuS9Z-HqbZWvg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_XwYHonshEeuI38kuQGNOHg">
+        <parameters xmi:id="_XwYHo3shEeuI38kuQGNOHg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/mysql_0.1.item#_8kHI9FueEeuS9Z-HqbZWvg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_XwYHpHshEeuI38kuQGNOHg">
+        <parameters xmi:id="_XwYHpXshEeuI38kuQGNOHg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/mysql_0.1.item#_8kHI9FueEeuS9Z-HqbZWvg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_XwYHpnshEeuI38kuQGNOHg">
+        <parameters xmi:id="_XwYHp3shEeuI38kuQGNOHg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/mysql_0.1.item#_8kHI9FueEeuS9Z-HqbZWvg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_XwYHqHshEeuI38kuQGNOHg">
+        <parameters xmi:id="_XwYHqXshEeuI38kuQGNOHg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/mysql_0.1.item#_8kHI9FueEeuS9Z-HqbZWvg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_XwYHqnshEeuI38kuQGNOHg">
+        <parameters xmi:id="_XwYHq3shEeuI38kuQGNOHg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/mysql_0.1.item#_8kHI9FueEeuS9Z-HqbZWvg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_Wa5ieXshEeuI38kuQGNOHg" dataFilter="_YIr58HshEeuI38kuQGNOHg" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_XwW5gHshEeuI38kuQGNOHg" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_YIr58HshEeuI38kuQGNOHg" name="cityAna">
+    <ranges xmi:id="_YIr58XshEeuI38kuQGNOHg">
+      <expressions xmi:id="_YIshAHshEeuI38kuQGNOHg">
+        <expression xsi:type="relational:TdExpression" xmi:id="_YIshAXshEeuI38kuQGNOHg" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
